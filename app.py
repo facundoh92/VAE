@@ -4,7 +4,7 @@ from utils import model_interp,vae_loaded,show_interp
 
 import random
 
-index1 = 14
+index1 = 0
 index2 = 42
 
 interp_result = model_interp(model = vae_loaded, index1 = index1, index2 = index2).unbind(0)
